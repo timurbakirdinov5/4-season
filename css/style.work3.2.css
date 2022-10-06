@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.img22{
+    position: absolute;
+    margin-top: -384px;
+}
+.img11{
+   padding-left: 1000px;
+}
+.semya{
+    margin: 0 0 90px 0;
+}
+
+#header {
+    width:100%;
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+}
+
+.search-box {
+    position: absolute;
+    margin: 0 0 15px 0;
+    left: 28%;
+    background: linear-gradient(90deg, #72072D 0%, #FF005C 100%);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+
+.search-btn {
+    color: blue;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0;
+}
+
+.search-box:hover .search-txt {
+    width: 630px;
+    padding: 0;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+
+
+}
+.sub{
+    margin-top: -97px;
+    margin-left: -520px;
+}
+.sub img{
+    margin: 0 20px ;
+
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-left: 1050px;
+    align-items: center;
+    height: 200px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.button {
+    display: flex;
+    margin: 20px 0;
+}
+.semyatext{
+    position: absolute;
+    margin-top: -330px;
+    left: 550px;
+}
+.semyatext h1{
+    margin: 0 0 70px 0;
+    font-weight: 900;
+    font-size: 48px;
+    color: #72072D;
+}
+.semyatext h5{
+    margin: 0 0 30px 0;
+    font-weight: 900;
+    font-size: 24px;
+    color: #FF005C
+}
+.kate{
+    font-weight: 700;
+    font-size: 40px;
+    color: #72072D;
+    margin-top: -80px;
+    left: 45px;
+    position: absolute;
+}
+.button a{
+    margin: 0 15px;
+}
+
+
+.button h5 {
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+
+.btn2 {
+    font-size: 20px;
+    font-family: monospace;
+    background: url("../img/2.png");
+    width: 315px;
+    height: 67px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.btn3 {
+    font-size: 20px;
+    font-family: monospace;
+    background: url("../img/3.png");
+    width: 315px;
+    height: 67px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1.5s;
+
+}
+
+.btn4 {
+    font-size: 20px;
+    font-family: monospace;
+    background: url("../img/motion4.png");
+    width: 315px;
+    height: 67px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.btn2:hover {
+    width: 315px;
+    height: 232px;
+
+
+}
+
+.btn3:hover {
+    width: 315px;
+    height: 232px;
+}
+
+.btn4:hover {
+    width: 315px;
+    height: 232px;
+
+}
+.btn {
+    font-size: 20px;
+    font-family: monospace;
+    background: url("../img/1.png");
+    width: 315px;
+    height: 67px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1.5s;
+
+}
+.btn:hover {
+    width: 315px;
+    height: 232px;
+
+}
+.jo{
+    margin-left: 50px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #72072D;
+}
+.noob{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.noob2{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+.noob3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+#footer{
+    width:100%;
+    background: linear-gradient(269.84deg, #FF005C -10.98%, rgba(0, 0, 0, 0.88) 100%);
+    height: 210px;
+}
+.footer h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+.footer{
+    width: 400px;
+}
+.mo{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mo h4{
+    display: flex;
+    font-size: 15px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.mo h3{
+    font-size: 17px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.mo h5{
+    color: #FFFFFF;
+}
+.addres h3{
+    margin-left: 40px;
+}
+#tobias h5{
+    font-size: 18px;
+    color: #000000;
+}
+#tobias h6{
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+.mo h1{
+    margin-top: 50px;
+}
